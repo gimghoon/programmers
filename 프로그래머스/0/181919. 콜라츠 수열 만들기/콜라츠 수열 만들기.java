@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 class Solution {
-    public static int[] solution(int n) {
+  public static int[] solution(int n) {
 		ArrayList <Integer> colits= new ArrayList <>();
 		colits.add(n);
 		while(n!=1) {
