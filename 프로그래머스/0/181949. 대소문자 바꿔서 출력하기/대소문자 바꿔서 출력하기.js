@@ -10,15 +10,14 @@ rl.on("line", function (line) {
   input = [line];
 }).on("close", function () {
   str = input[0];
-  let answer = "";
-  var arr = [];
-  for (let index = 0; index < str.length; index++) {
-    if (str.charAt(index).charCodeAt() < 96) {
-      arr[index] = str.charAt(index).toLowerCase();
+  arr = str.split("");
+  arr.forEach((value, index) => {
+    if (value === value.toUpperCase()) {
+      arr[index] = value.toLowerCase();
     } else {
-      arr[index] = str.charAt(index).toUpperCase();
+      arr[index] = value.toUpperCase();
     }
-    answer += arr[index];
-  }
-  console.log(answer);
+  });
+
+  console.log(arr.join(""));
 });
