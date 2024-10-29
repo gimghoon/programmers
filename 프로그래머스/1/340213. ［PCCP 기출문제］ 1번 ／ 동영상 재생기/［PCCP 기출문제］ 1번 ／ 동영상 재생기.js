@@ -1,4 +1,3 @@
-
 function solution(video_len, pos, op_start, op_end, commands) {
   function checkifopening(pos) {
     return pos >= op_start && pos <= op_end ? op_end : pos;
