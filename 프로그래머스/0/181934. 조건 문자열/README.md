@@ -1,10 +1,10 @@
 # [level 0] 조건 문자열 - 181934 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181934) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181934?language=javascript) 
 
 ### 성능 요약
 
-메모리: 67.5 MB, 시간: 0.04 ms
+메모리: 33.5 MB, 시간: 0.06 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 10월 09일 00:12:32
+2024년 11월 30일 23:57:40
 
 ### 문제 설명
 
